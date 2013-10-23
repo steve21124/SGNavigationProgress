@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.author = { "Shawn Gryschuk" => "sgryschuk@gmail.com" }
   s.source = { :git => "https://github.com/sgryschuk/SGNavigationProgress.git", :tag => "1.1" }
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '6.1'
   s.source_files = 'SGNavigationProgress/UINavigationController+SGProgress/*'
   s.requires_arc = true
 end
